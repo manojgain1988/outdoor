@@ -1,0 +1,231 @@
+.{
+    margin: 0;
+    padding: 0;
+
+}
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.header{
+    background-image: url('../images/bg-3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    
+}
+.header img{
+    color: #fff;
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #fff;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 45px;
+}
+.nav-link:hover{
+    color: #DA1C4B;
+}
+
+.header h3{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+  
+.header span{
+    padding-top: 0;
+    display: block;
+    width: 120px;
+    height:4px;
+    background: red;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 45px;
+    }
+.header h1{
+    color: #fff;
+    font-size: 75px;
+    padding: 40px 26px 46px 0px;
+    font-weight: 700;
+    }
+.btn-hero{
+    color: #fff;
+    background-color: #DA1C4B;
+    padding: 7px 25px;
+    font-size: 16px;
+    border-radius: 17px;
+    margin-left: -35px;
+ }
+ .btn-hero:hover{
+    background-color: #DA1C4B;
+    color: #fff;
+    font-size: 16px;
+ }
+   /**  header part end  */ 
+
+
+   /**  qutation part start  */ 
+.qutation-part{
+    height: 200px;
+    width: 100%;
+    background-color: #e0e0e0;
+    padding: 40px 0;
+}
+.qutation-part h1{
+    font-size: 25px;
+    text-align: center;
+}
+.qutation-part p{
+    margin-top: 38px;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+}
+     /**  qutation part end  */ 
+
+     /**  upcoming part start  */ 
+.enents{
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 70px;
+  
+}
+.enents h1{
+text-transform: uppercase;
+margin-bottom: 40px;
+
+}
+.enents span{
+    background-color: #DA1C4B;
+    height: 5px;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 30px;
+    display: block;
+
+}
+.enents h3{
+   margin: 20px 0;
+
+}
+.enents p{
+    color: #777;
+    padding: 8px 14px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.btn-btn-herocon{
+   text-decoration: none; 
+   color: #fff;
+   border: 2px solid rgb(226, 78, 78);
+   background: #DA1C4B;
+   padding: 10px 45px;
+   text-transform: uppercase;
+   border-radius: 12px;
+
+
+}   
+     /**  upcoming part end  */ 
+
+
+     /*-----explore part start------*/ 
+.explore{
+    margin-top: 50px;
+    text-align: center;
+    background-image: url('../images/explore-ccopy.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+     
+}
+.explore h1{
+    color: #fff;
+}
+.explore span{
+    background-color: #DA1C4B;
+    height: 4px;
+    width: 150px;
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+
+}
+.explore p{
+    color: #fff;
+    padding: 25px 50px;
+
+}
+      /*-----explore part end------*/
+      
+      /*-----Toure part start------*/ 
+.tour{
+    margin-top:100px;
+    text-align: left;
+    
+} 
+.tour h1{
+    padding-top: 50px;
+
+}     
+.tour span{
+    background-color: #DA1C4B;
+    height: 4px;
+    width: 150px;
+    margin-top: 30px;
+    display: block;
+    text-align: left;
+
+}      
+    
+.tour p{
+   font-size: 16px;
+   line-height: 25px;
+   margin: 45px 0;
+   color: #777;
+   
+} 
+.btn-btn-tour{
+   text-decoration: none; 
+   color: #fff;
+   border: 2px solid rgb(226, 78, 78);
+   background: #DA1C4B;
+   padding: 10px 45px;
+   text-transform: uppercase;
+   border-radius: 12px;
+ 
+}     
+        /*-----Toure part end------*/ 
+
+        /*-----fotter part start------*/
+.fotter{
+    background: #191919;
+    height: 150px;
+} 
+.fotter h1{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 38px;
+} 
+.fotter h2{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 25px;
+
+
+        /*-----fotter part end------*/ 
+
+
